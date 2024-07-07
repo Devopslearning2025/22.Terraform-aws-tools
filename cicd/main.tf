@@ -22,7 +22,7 @@ module "jenkins_agent" {
   instance_type          = "t3.micro"
   vpc_security_group_ids = ["sg-12345678"]
   subnet_id              = "subnet-0ed5d7f5043e97d3e"
-  user_data              = file("jenkin-agent.sh")
+  user_data              = file("jenkins-agent.sh")
   ami                    = data.aws_ami.ami_info.id
   tags = {
     Name = "Jenkins-Agent"

@@ -1,5 +1,3 @@
-
-
 echo "[jenkins]
 name=Jenkins-stable
 baseurl=http://pkg.jenkins.io/redhat-stable
