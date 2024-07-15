@@ -7,9 +7,12 @@
   }
   backend "s3" {
     bucket   = "practicing-terraform"
-    key      = "expense-terraform-jenkins"
+    #bucket   = "Expense-Jenkins"
+    #key      = "expense-terraform-jenkins"
+    key      = "jenkins"
     region   = "us-east-1"
     dynamodb_table = "devopslearning2025-practicing"
+    #dynamodb_table = "devopslearning2025-jenkins"
   }
 }
 
